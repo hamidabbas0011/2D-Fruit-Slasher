@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6740465507680575190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2207759676639577770}
+  - component: {fileID: -2268771062220649775}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2207759676639577770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740465507680575190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -6.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2268771062220649775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740465507680575190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a304c52468b3c43b436e0e91f7c617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fruitSpawn:
+  - {fileID: 5096885053228034652, guid: d0a77ed6449c55d41955ff1f6a185c68, type: 3}
+  - {fileID: 1935033432641448000, guid: f6a4f8733b23c5a4785a36ba5d876a59, type: 3}
+  - {fileID: 8672445821444740585, guid: 78e5cf66485a64b459dbc096d541d611, type: 3}
+  bombSpawn: {fileID: 2167942271790869897, guid: 5d0a7e59013166c4cb0653baa7f106e7, type: 3}
+  spawnPlace:
+  - {fileID: 5106553512661515656, guid: edf2ae6f8ea9edb42b3f2ac70af36ea6, type: 3}
+  - {fileID: 5482923948594734337, guid: 158cf33894981a3418381b24b21bccac, type: 3}
+  - {fileID: 4083852668987019670, guid: 0f87972740cdfe84992f6c8bcf05378f, type: 3}
+  minWait: 0.5
+  maxWait: 1
+  maxForce: 12
+  minForce: 17
